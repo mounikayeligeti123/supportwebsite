@@ -136,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "teamoments"
+  "defaultProject": "teamoments",
+  "cli": {
+    "analytics": "7dc24348-c19f-49cd-b4ce-8a57eba7d0f4"
+  }
 }

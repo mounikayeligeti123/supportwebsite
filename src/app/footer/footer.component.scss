@@ -1,5 +1,5 @@
 #contact {
-    background: #CAEFD1;
+    background-color:#023b6d !important;
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -10,7 +10,7 @@ h2 {
     padding-bottom: 40px;
 }
 .footerheader{
-  color:  #7F8C8D;
+  color:  #fff;
   visibility: visible;
    animation-delay: 0.3s;
     animation-name: bounceIn;
@@ -54,6 +54,7 @@ h2 span {
 .social-icon h4 {
     display: inline-block;
     padding-right: 20px;
+    color: #fff;
 }
 .social-icon li a {
     border: 1px solid #fff;
@@ -67,4 +68,9 @@ h2 span {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     margin-right: 10px;
+}
+.addresstext{
+transition: .3s;
+    font-size: 15px;
+    color: rgba(255,255,255,.7);
 }

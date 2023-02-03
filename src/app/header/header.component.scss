@@ -2,18 +2,19 @@
 .navbar-brand{
   font-size: 20px;
   font-weight: bold;
-  color: #777 !important;
+  // color: #777 !important;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  animation: movedown 1s linear 1;
-  animation-duration: 1s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
+  // animation: movedown 1s linear 1;
+  // animation-duration: 1s;
+  // visibility: hidden;
+  // animation-fill-mode: forwards;
 }
-.navbar-nav{
-  animation: movedown 1s linear 1;
-  animation-duration: 2s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
+
+.navbar{
+     background-color:#023b6d !important;
+      // #2c71f6fb!important;
+     color: #fff;
+     position: fixed;
 }
 @keyframes movedown{
   0%{
@@ -35,104 +36,91 @@
   z-index: 1000;
  
 }
-.navbar-default {
-  // background: #fff;
-  border: none;
-  box-shadow: none;
-  margin: 0 !important;
+// .navbar-default {
+//   // background: #fff;
+//   border: none;
+//   box-shadow: none;
+//   margin: 0 !important;
  
-}
-.social-icon li {
-  list-style: none;
-  display: inline-block;
-}
-.header{
-  min-height: 20px;
-  padding-top: 18px;
-  padding-bottom: 10px;
-  background-color: black;
-}
-header .social-icon li a {
-  border: none;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  text-align: center;
-}
-.phoneText,.emailText,.meet-Links{
-  color: #fff;
-}
-.meet-Links{
-  margin-right: 10px;
-}
-header .emailText a {
-  color: #999;
-  font-weight: 600;
-  margin-left: 10px;
-}
-header .emailText a:hover{
-  color: aqua;
-}
-// .fa-icon{
-//   color: blue;
 // }
-header .fa {
-  color: #28a7e9;
-}
-header .social-icon {
-  text-align: right;
-}
-.social-icon {
-  position: relative;
-  padding: 0;
-  margin: 0;
-}
-header .social-icon li a {
-  border: none;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  margin-right: 10px;
-  text-align: center;
-  border-radius: 2px;
-    color: #fff;
-}
-.social-icon li a:hover {
-  background: #28a7e9;
-  border-color: transparent;
-}
-.fa-facebook:before {
-  content: "\f09a";
-}
 
-.navbar-default .navbar-nav > li > a.current {
-  color: #28A7E9;
-}
+// .header{
+//   min-height: 20px;
+//   padding-top: 18px;
+//   padding-bottom: 10px;
+//   background-color: black;
+// }
+// header .social-icon li a {
+//   border: none;
+//   width: 20px;
+//   height: 20px;
+//   line-height: 20px;
+//   text-align: center;
+// }
+// .phoneText,.emailText,.meet-Links{
+//   color: #fff;
+// }
+// .meet-Links{
+//   margin-right: 10px;
+// }
+// header .emailText a {
+//   color: #999;
+//   font-weight: 600;
+//   margin-left: 10px;
+// }
+// header .emailText a:hover{
+//   color: aqua;
+// }
+// // .fa-icon{
+// //   color: blue;
+// // }
+// header .fa {
+//   color: #28a7e9;
+// }
+// header .social-icon {
+//   text-align: right;
+// }
+// .social-icon {
+//   position: relative;
+//   padding: 0;
+//   margin: 0;
+// }
+// header .social-icon li a {
+//   border: none;
+//   width: 20px;
+//   height: 20px;
+//   line-height: 20px;
+//   margin-right: 10px;
+//   text-align: center;
+//   border-radius: 2px;
+//     color: #fff;
+// }
+
+
 .navbar-default .navbar-nav li a {
-  font-weight: bold;
-  font-size: 13px;
-  height: 70px;
-  line-height: 40px;
+  color: inherit;
+  font-size: 1.4rem;
+  opacity: 1;
+  padding: 0.1em 0.55em;
+  // font-weight: bold;
+
+  // height: 70px;
+  // line-height: 40px;
 }
-.navbar-default .navbar-nav>li>a:hover {
-  color: #333;
-  background-color: transparent;
+// .navbar-nav>li>a:hover {
+//   color: #333;
+//   background-color: transparent;
+// }
+
+.navbar-nav li a.nav-link {
+  color:#fff ;
 }
-.navbar-default .navbar-nav li a {
-  font-weight: bold;
-  font-size: 13px;
-  height: 70px;
-  line-height: 40px;
-}
-.navbar-default .navbar-nav>li>a {
-  color: #777;
-}
-.nav>li>a:focus, .nav>li>a:hover {
+.navbar-nav li a.nav-link :focus, .navbar-nav li a.nav-link :hover {
   text-decoration: none;
-  background-color: #eee;
+ color: #28a7e9 !important;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+ .navbar-collapse,  .navbar-form {
   border-color: #e7e7e7;
 }
 @media (min-width: 992px){

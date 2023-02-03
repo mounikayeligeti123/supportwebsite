@@ -1,0 +1,26 @@
+.supportheader{
+    font-size: 32px;
+padding-bottom: 40px;
+margin: 0;
+color: #fff;
+font-weight: 600;
+
+font-family: Roboto,sans-serif;
+text-align: center;
+}
+#portfolio{
+    background-color:#0d0c22 ;
+}
+.slideleft{
+    animation: slideleft 1s linear forwards;
+  }
+  @keyframes slideleft{
+    0%{
+      transform: translate(100px);
+      opacity: 0;
+    }
+    100%{
+      transform: translate(0px);
+      opacity: 1;
+    }
+  }
