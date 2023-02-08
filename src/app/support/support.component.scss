@@ -9,7 +9,12 @@ font-family: Roboto,sans-serif;
 text-align: center;
 }
 #portfolio{
-    background-color:#0d0c22 ;
+    // background-color:#0d0c22 ;
+    background: rgb(49,79,210);
+    background: linear-gradient(90deg, rgba(49,79,210,1) 16%, rgba(229,105,218,1) 87%);
+    padding-top: 160px;
+    padding-bottom: 100px;
+    min-height: 600px;
 }
 .slideleft{
     animation: slideleft 1s linear forwards;

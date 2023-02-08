@@ -4,7 +4,14 @@
     margin: 0;
     color: #023b6d;
     font-weight: 600;
-    background: #fff;
+    // background: #fff;
     font-family: Roboto,sans-serif;
     text-align: center;
+}
+#about{
+    padding-top: 160px;
+    padding-bottom: 100px;
+    min-height: 600px;
+    background: rgb(49,79,210);
+background: linear-gradient(90deg, rgba(49,79,210,1) 16%, rgba(185,223,91,1) 87%);
 }

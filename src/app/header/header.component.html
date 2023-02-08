@@ -1,5 +1,14 @@
 
-<nav class="navbar navbar-expand-sm templatemo-nav  ">
+<nav class="navbar navbar-expand-sm templatemo-nav  " 
+[ngClass]="{
+  'home': pageTitle == 1 ,
+  'team': pageTitle == 2 ,
+  'support': pageTitle== 4 ,
+  'about': pageTitle == 3,
+  'service':pageTitle == 5
+  }"
+>
+ 
     <div class="container">
     
     
@@ -15,33 +24,34 @@
          
             <ul class="navbar-nav ms-auto flex-nowrap">
         <li class="nav-item active">
-          <a class="nav-link js-scroll-trigger"  routerLink="/home">
+          <a class="nav-link js-scroll-trigger"  routerLink="/" routerLinkActive="active" 
+          [routerLinkActiveOptions]={exact:true} >
        HOME
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger"   routerLink="/about">
+          <a class="nav-link js-scroll-trigger"   routerLink="/about" routerLinkActive="active" >
          ABOUT
           </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"   routerLink="/team">
+            <a class="nav-link js-scroll-trigger"   routerLink="/team" routerLinkActive="active">
        CLIENTS
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"   routerLink="/service">
+            <a class="nav-link js-scroll-trigger"   routerLink="/service" routerLinkActive="active">
    SERVICE
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"  routerLink="/support">
+            <a class="nav-link js-scroll-trigger"  routerLink="/support" routerLinkActive="active">
 SUPPORT
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"  (click)="scrollToElement('#contact')">
+            <a class="nav-link js-scroll-trigger"   routerLinkActive="active">
 CONACT
             </a>
           </li>

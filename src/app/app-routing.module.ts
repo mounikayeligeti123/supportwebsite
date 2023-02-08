@@ -15,11 +15,11 @@ import { AboutComponent } from './about/about.component';
 const routes: Routes = [
 
     { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'home', component: HomeComponent },
-    {path:'service',component:ServiceComponent},
-    {path:'support',component:SupportComponent},
-    {path:'team',component:TeamComponent},
-    {path:'about',component:AboutComponent}
+    { path: 'home', component: HomeComponent,data: {title: 'Home'} },
+    {path:'service',component:ServiceComponent,data: {title: 'Service'}},
+    {path:'support',component:SupportComponent,data: {title: 'Support'}},
+    {path:'team',component:TeamComponent,data: {title: 'Team'}},
+    {path:'about',component:AboutComponent,data: {title: 'About'}}
  
 
   

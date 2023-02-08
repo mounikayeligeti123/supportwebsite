@@ -8,10 +8,11 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-  
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 29%, rgba(0,160,255,1) 88%);
     // background-color: #3349FF !important;
-    background-color: #023b6d;
-
+    //  background-color: #5978ee;
+// background-color: #6554c0;
     color: #fff;
  
 
@@ -20,6 +21,7 @@
     visibility: visible; 
     animation-delay: 0.9s; 
     animation-name: fadeIn;
+   
 }
 #home h1 {
     font-weight: 300;
@@ -34,7 +36,8 @@
 .element {
     height: 60px;
     font-size: 16px;
-    color: #5499C7;
+    // color: #5499C7;
+    color: #fff;
     opacity: 0;
 }
 #home .btn {
@@ -51,8 +54,9 @@
     transition: all 0.4s ease-in-out;
 }
 #home h1 span {
-    color: #28a7e9;
+    // color: #28a7e9;
     font-weight: bold;
+    color: #fff
 }
 #home .btn:hover {
     background: #28a7e9;

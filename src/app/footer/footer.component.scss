@@ -1,5 +1,5 @@
 #contact {
-    background-color:#023b6d !important;
+    background-color:#343f55 !important;
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -10,7 +10,7 @@ h2 {
     padding-bottom: 40px;
 }
 .footerheader{
-  color:  #fff;
+  color:  #ffffff;
   visibility: visible;
    animation-delay: 0.3s;
     animation-name: bounceIn;
@@ -72,5 +72,6 @@ h2 span {
 .addresstext{
 transition: .3s;
     font-size: 15px;
-    color: rgba(255,255,255,.7);
+    // color: rgba(255,255,255,.7);
+    color: #ffffff;
 }
