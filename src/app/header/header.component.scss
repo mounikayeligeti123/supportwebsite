@@ -9,9 +9,11 @@
   // visibility: hidden;
   // animation-fill-mode: forwards;
 }
-.active {
-  color: #28a7e9;
+.active{
+ color: #35bee9 !important;
+ font-weight: bold;
 }
+
 .home{
   background: rgb(9,9,121);
   background: linear-gradient(90deg, rgba(9,9,121,1) 29%, rgba(0,160,255,1) 88%);

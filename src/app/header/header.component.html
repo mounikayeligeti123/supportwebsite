@@ -23,34 +23,34 @@
         <div class="collapse navbar-collapse sidenav" id="navbarSupportedContent">
          
             <ul class="navbar-nav ms-auto flex-nowrap">
-        <li class="nav-item active">
-          <a class="nav-link js-scroll-trigger"  routerLink="/" routerLinkActive="active" 
-          [routerLinkActiveOptions]={exact:true}  (click)="onActivate($event)">
+        <li class="nav-item ">
+          <a class="nav-link "  routerLink="/" routerLinkActive="active" 
+          [routerLinkActiveOptions]="{exact:true}"  (click)="onActivate($event)">
        HOME
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger"   routerLink="/about" routerLinkActive="active"
-          (click)="onActivate($event)" >
+          <a class="nav-link "   routerLink="/about" routerLinkActive="active"
+          (click)="onActivate($event)" [routerLinkActiveOptions]="{exact:true}">
          ABOUT
           </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"   routerLink="/team" routerLinkActive="active"
-            (click)="onActivate($event)">
+            <a class="nav-link "   routerLink="/team" routerLinkActive="active"
+            (click)="onActivate($event)" [routerLinkActiveOptions]="{exact:true}">
        CLIENTS
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"   routerLink="/service" routerLinkActive="active"
-            (click)="onActivate($event)">
+            <a class="nav-link "   routerLink="/service" routerLinkActive="active"
+            (click)="onActivate($event)" [routerLinkActiveOptions]="{exact:true}">
    SERVICE
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"  routerLink="/support" routerLinkActive="active"
-            (click)="onActivate($event)">
+            <a class="nav-link "  routerLink="/support" routerLinkActive="active"
+            (click)="onActivate($event)" [routerLinkActiveOptions]="{exact:true}">
 SUPPORT
             </a>
           </li>
