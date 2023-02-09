@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router,Data, NavigationEnd,Event } from '@angular/router';
 
 @Component({
@@ -37,7 +37,23 @@ this.pageTitle = 1
             }
           });
   }
-  scrollToElement(val:any) {
-    this.scrollEvent.emit(val)
+ 
+
+
+  public moveToSpecificView(): void {
+    // window.scrollBy(0, 900);
+    window.scroll({ 
+      top: 900, 
+      left: 0, 
+      behavior: 'smooth' 
+});
   }
+  onActivate(event:any) {
+ 
+    window.scroll({ 
+            top: 0, 
+            left: 0, 
+            behavior: 'smooth' 
+     });
+    }
 }

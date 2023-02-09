@@ -25,33 +25,38 @@
             <ul class="navbar-nav ms-auto flex-nowrap">
         <li class="nav-item active">
           <a class="nav-link js-scroll-trigger"  routerLink="/" routerLinkActive="active" 
-          [routerLinkActiveOptions]={exact:true} >
+          [routerLinkActiveOptions]={exact:true}  (click)="onActivate($event)">
        HOME
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger"   routerLink="/about" routerLinkActive="active" >
+          <a class="nav-link js-scroll-trigger"   routerLink="/about" routerLinkActive="active"
+          (click)="onActivate($event)" >
          ABOUT
           </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"   routerLink="/team" routerLinkActive="active">
+            <a class="nav-link js-scroll-trigger"   routerLink="/team" routerLinkActive="active"
+            (click)="onActivate($event)">
        CLIENTS
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"   routerLink="/service" routerLinkActive="active">
+            <a class="nav-link js-scroll-trigger"   routerLink="/service" routerLinkActive="active"
+            (click)="onActivate($event)">
    SERVICE
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"  routerLink="/support" routerLinkActive="active">
+            <a class="nav-link js-scroll-trigger"  routerLink="/support" routerLinkActive="active"
+            (click)="onActivate($event)">
 SUPPORT
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"   routerLinkActive="active">
+          <li class="nav-item" >
+            <a class="nav-link js-scroll-trigger"   routerLinkActive="active"
+            (click)="moveToSpecificView()">
 CONACT
             </a>
           </li>
